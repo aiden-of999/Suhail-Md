@@ -16,7 +16,7 @@ global.allowJids= process.env.ALLOW_JID || "null"
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
@@ -76,8 +76,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "Suhail",
+  botname : process.env.BOT_NAME  || "Aiden_of999-jnr",
+  ownername:process.env.OWNER_NAME|| "Aden_of999",
 
 
   errorChat : process.env.ERROR_CHAT || "",
